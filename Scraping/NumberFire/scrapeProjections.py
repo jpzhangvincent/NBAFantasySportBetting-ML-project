@@ -1,10 +1,10 @@
-'''
+"""
 
-This script scrapes NumberFire's Daily Fantasy Projections for Draftkings.
+Scrapes NumberFire's Daily Fantasy Projections for Draftkings.
 
 TODO: Currently, the script grabs predictions for FanDuel. Need to somehow switch to DraftKings.
 
-'''
+"""
 
 
 import sys
@@ -14,7 +14,7 @@ from PyQt4.QtWebKit import *
 from bs4 import BeautifulSoup
 
 
-# Take this class for granted.Just use result of rendering.
+# class to capture web page as rendered
 class Render(QWebPage):
 
     def __init__(self, url):
