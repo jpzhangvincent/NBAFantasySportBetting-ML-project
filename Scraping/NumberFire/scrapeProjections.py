@@ -12,6 +12,7 @@ from PyQt4.QtGui import *
 from PyQt4.QtCore import *  
 from PyQt4.QtWebKit import *
 from bs4 import BeautifulSoup
+import csv
 
 
 # class to capture web page as rendered
@@ -33,14 +34,29 @@ r = Render(url)
 result = r.frame.toHtml()
 
 result = str(result.toAscii())
-
+# print(result)
 soup = BeautifulSoup(result, 'lxml')
 
 data = []
-table = soup.find("table", attrs={'class': 'data-table xsmall'})
+table = soup.find("table", attrs={'class': 'data-table xsmall','id':'complete-projection'})
 table_body = table.find('tbody')
 rows = table_body.find_all('tr')
+
+
+table_head = table.find('thead').find('tr',attrs={'class':'bottom'})
+labels = table_head.find_all('th')
+
+header=[]
+for label in labels:
+    header.append(label.getText().strip())
+
+print(header)
+
+writer=csv.writer(open("salaryDetails.csv",'wb'))
+writer.writerow(header)
+
 for row in rows:
     cols = row.find_all('td')
     cols = [ele.text.strip() for ele in cols]
     print cols
+    writer.writerow(cols)
