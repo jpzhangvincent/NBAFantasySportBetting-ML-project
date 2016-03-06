@@ -1,17 +1,11 @@
-"""
-
-Scrape team stats and team game logs from http://stats.nba.com/teams/
-
-"""
+__author__ = 'rylan'
 
 from bs4 import BeautifulSoup
 from pandas import DataFrame
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
-from PyQt4.QtWebKit import *
+from PyQt4.QtGui import QApplication
+from PyQt4.QtCore import QUrl
+from PyQt4.QtWebKit import QWebPage
 import sys
-
-sys.settrace
 
 # class to capture web page as rendered
 class Render(QWebPage):
@@ -27,37 +21,16 @@ class Render(QWebPage):
         self.frame = self.mainFrame()
         self.app.quit()
 
-# convert webpage to soup object
-r = Render('http://stats.nba.com/teams/')
-result = r.frame.toHtml()
-result = str(result.toAscii())
-soup = BeautifulSoup(result, 'lxml')
-del r
 
-# identify links to each team's stats and game logs
-team_index = soup.find_all('div', {'class': 'team-block__links'})
-type(team_index[0].contents[3])
-stats_URLs = []
-game_log_URLs = []
-for team_num in range(0, len(team_index)):
-    stats_URLs.append('http://stats.nba.com' + team_index[team_num].contents[3]['href'])
-    game_log_URLs.append('http://stats.nba.com' + team_index[team_num].contents[5]['href'])
-del soup
+def scrapeGameLog(game_log_URL):
 
-# parse each team's game log
-game_logs = {}
-
-for game_log_URL in game_log_URLs:
-
-    # TODO: add another loop for each year
+# TODO: add another loop for each year
     # e.g. http://stats.nba.com/team/#!/1610612738/gamelogs/?t=celtics&Season=2014-15&SeasonType=Regular%20Season
     # TODO: maybe add loop for type of season? e.g. pre, regular, playoffs
 
     # convert webpage to soup
     r = Render(game_log_URL)
-    result = r.frame.toHtml()
-    result = str(result.toAscii())
-    log_soup = BeautifulSoup(result, 'lxml')
+    log_soup = BeautifulSoup(str(r.frame.toHtml().toAscii()), 'lxml')
     del r
 
     # extract matchup
@@ -65,6 +38,8 @@ for game_log_URL in game_log_URLs:
 
     # extract all twenty columns
     matchup_data = log_soup.find_all('td', {'class': 'ng-binding'})
+
+    log_soup.decompose()
 
     # win/loss
     wl = [str(ele.text) for ele in matchup_data[0::20]]
@@ -127,13 +102,9 @@ for game_log_URL in game_log_URLs:
     fouls = [int(str(ele.text).strip(' \n\n\n\nVideo\nShotchart\n\n\n\n\n\n')) for ele in matchup_data[19::20]]
 
     # create dataframe and add to game logs hash
-    game_logs[game_log_URL[52::]] = DataFrame(data={'W/L': wl, 'Minutes': minutes, 'Matchup': matchups,
+    return DataFrame(data={'W/L': wl, 'Minutes': minutes, 'Matchup': matchups,
                                                          'Points': points, 'FGM': fgm, 'FGA': fga, 'FG%': fgp,
                                                          '3PM': threepm, '3PA': threepa, '3P%': threepp, 'FTM': ftm,
                                                          'FTA': fta, 'FT%': ftp, 'OREB': orb, 'DREB': drb,
                                                          'Assists': ass, 'Steals': steals, 'Blocks': blocks,
                                                          'Turnovers': turnov, 'PF': fouls})
-
-
-# parse each team's stat page
-    pass
