@@ -45,5 +45,5 @@ def scrapeURLs():
         game_log_URLs.append('http://stats.nba.com' + team_index[team_num].contents[5]['href'])
 
     # pickle urls
-    pickle.dump(game_log_URLs, open('gamelogURLs.pkl', 'wb'))
-    pickle.dump(stats_URLs, open('statsURLs.pkl', 'wb'))
+    pickle.dump(game_log_URLs, open('../../Data/gamelogURLs.pickle', 'wb'))
+    pickle.dump(stats_URLs, open('../../Data/statsURLs.pickle', 'wb'))
