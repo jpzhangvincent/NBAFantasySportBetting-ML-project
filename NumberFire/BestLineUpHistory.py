@@ -1,32 +1,36 @@
+"""
+
+Scrapes
+
+"""
+
 import json
 import urllib
 import urllib2
-import  time
 from datetime import date, datetime, timedelta
-from random import randint
 import random
 
-USER_AGENTS_FILE="user_agents.txt"
+USER_AGENTS_FILE = "user_agents.txt"
 
 
 
 
 
 def getNumberFireURL(searchfor,header):
-  # f=open('numberfire2.txt','a+')
-  query = urllib.urlencode({'q': searchfor})
-  url = 'http://ajax.googleapis.com/ajax/services/search/web?v=1.0&%s' % query
+    # f=open('numberfire2.txt','a+')
+    query = urllib.urlencode({'q': searchfor})
+    url = 'http://ajax.googleapis.com/ajax/services/search/web?v=1.0&%s' % query
 
-  req = urllib2.Request(url,None,header)
+    req = urllib2.Request(url,None,header)
 
-  search_results = urllib2.urlopen(req).read()
+    search_results = urllib2.urlopen(req).read()
 
-  results = json.loads(search_results)
-  data = results['responseData']
-  hits = data['results']
-  for h in hits:
-      if "numberfire" and 'yesterday' in h['url']:
-          print h['url']
+    results = json.loads(search_results)
+    data = results['responseData']
+    hits = data['results']
+    for h in hits:
+        if "numberfire" and 'yesterday' in h['url']:
+            print h['url']
           # f.write(h['url']+"\n")
 
 
