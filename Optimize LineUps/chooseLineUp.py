@@ -45,8 +45,11 @@ for i in numOfPlayers:
 problem += pulp.lpSum(player_vars[i] * playerCosts[i] for i in numOfPlayers) <= salaryCap
 
 # solve
-problem.solve()
+solved = problem.solve()
 
-
-for pos in range(len(problem.variables())):
-    print '%30s, Present = %1.0f' % (playerNames[pos], problem.variables()[pos].varValue)
+if solved == 1:
+    # print players, whether they are in the solution
+    for pos in range(len(problem.variables())):
+        print '%30s, Present = %1.0f' % (playerNames[pos], problem.variables()[pos].varValue)
+else:
+    print 'Error finding solution'
