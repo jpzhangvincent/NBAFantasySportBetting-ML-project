@@ -22,10 +22,14 @@ pastsalaries.head()
 
 specificDate = pastsalaries[pastsalaries['Date'] == 20160306]
 
+specificDate.head()
+
 
 # initialize variables
 
 playerNames = specificDate['Name'].tolist()
+playerPositions = tuple(specificDate['Pos'])
+playerTeams = tuple(specificDate['Team'].unique())
 playerCosts = tuple(specificDate['DK Salary'])
 playerPoints = tuple(specificDate['DK Pts'])
 salaryCap = 55000
@@ -40,16 +44,43 @@ player_vars = pulp.LpVariable.dicts("Players", [i for i in numOfPlayers], 0, 1, 
 # objective: maximize sum of player points
 problem += pulp.lpSum(player_vars[i] * playerPoints[i] for i in numOfPlayers)
 
-# constraints: each player can only be chosen at most once
+# constraint: each player can only be chosen at most once
 for i in numOfPlayers:
     problem += pulp.lpSum(player_vars[i]) <= 1
 
 # constraints: sum of player costs must be less than or equal to the salary cap
 problem += pulp.lpSum(player_vars[i] * playerCosts[i] for i in numOfPlayers) <= salaryCap
 
+# constraint: teams must have 8 players
+problem += pulp.lpSum(problem.variables()) == 8
+
+# constraint: 1 <= number of PG <= Max 3
+
+# constraint: 1 <= number of SG <= Max 3
+
+# constraint: 1 <= number of SF <= Max 3
+
+# constraint: 1 <= number of PF <= Max 3
+
+# constraint: 1 <= number of C <= Max 2
+
+# constraint: at least two different teams must be chosen
+
+
+# constraint: at least two different games must be chosen
+
+
+count = 0
+
 # if solved, print players. otherwise, print error message
 if problem.solve() == 1:
     for pos in range(len(problem.variables())):
         print '%30s, Present = %1.0f' % (playerNames[pos], problem.variables()[pos].varValue)
+
+        if problem.variables()[pos].varValue == 1:
+            count += 1
+
+    print count
+
 else:
     print 'Error finding solution'
