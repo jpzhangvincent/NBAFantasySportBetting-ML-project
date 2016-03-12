@@ -2,6 +2,7 @@
 # for teaching us how to use pulp to solve a knapsack-like problem
 
 import glob
+import numpy
 import pandas
 import pulp
 
@@ -26,9 +27,8 @@ specificDate.head()
 
 
 # initialize variables
-
+playerPositions = specificDate['Pos'].tolist()
 playerNames = specificDate['Name'].tolist()
-playerPositions = tuple(specificDate['Pos'])
 playerTeams = tuple(specificDate['Team'].unique())
 playerCosts = tuple(specificDate['DK Salary'])
 playerPoints = tuple(specificDate['DK Pts'])
@@ -39,48 +39,64 @@ numOfPlayers = range(len(playerCosts))
 problem = pulp.LpProblem("Optimal Line-Up", pulp.LpMaximize)
 
 # create variable to represent each player
-player_vars = pulp.LpVariable.dicts("Players", [i for i in numOfPlayers], 0, 1, cat="Binary")
+playerInLineup = pulp.LpVariable.dicts("Players", [i for i in numOfPlayers], 0, 1, cat="Binary")
 
 # objective: maximize sum of player points
-problem += pulp.lpSum(player_vars[i] * playerPoints[i] for i in numOfPlayers)
+problem += pulp.lpSum(playerInLineup[i] * playerPoints[i] for i in numOfPlayers)
 
 # constraint: each player can only be chosen at most once
 for i in numOfPlayers:
-    problem += pulp.lpSum(player_vars[i]) <= 1
+    problem += pulp.lpSum(playerInLineup[i]) <= 1
 
 # constraints: sum of player costs must be less than or equal to the salary cap
-problem += pulp.lpSum(player_vars[i] * playerCosts[i] for i in numOfPlayers) <= salaryCap
+problem += pulp.lpSum(playerInLineup[i] * playerCosts[i] for i in numOfPlayers) <= salaryCap
 
 # constraint: teams must have 8 players
 problem += pulp.lpSum(problem.variables()) == 8
 
 # constraint: 1 <= number of PG <= Max 3
+pointguards = tuple(specificDate['Pos'] == 'PG')
+problem += pulp.lpSum(playerInLineup[i] * pointguards[i] for i in numOfPlayers) >= 1
+problem += pulp.lpSum(playerInLineup[i] * pointguards[i] for i in numOfPlayers) <= 3
 
 # constraint: 1 <= number of SG <= Max 3
+shootguards = tuple(specificDate['Pos'] == 'SG')
+problem += pulp.lpSum(playerInLineup[i] * shootguards[i] for i in numOfPlayers) >= 1
+problem += pulp.lpSum(playerInLineup[i] * shootguards[i] for i in numOfPlayers) <= 3
 
 # constraint: 1 <= number of SF <= Max 3
+smallforward = tuple(specificDate['Pos'] == 'SF')
+problem += pulp.lpSum(smallforward[i] * playerInLineup[i] for i in numOfPlayers) >= 1
+problem += pulp.lpSum(smallforward[i] * playerInLineup[i] for i in numOfPlayers) <= 3
 
 # constraint: 1 <= number of PF <= Max 3
+powerfoward = tuple(specificDate['Pos'] == 'PF')
+problem += pulp.lpSum(powerfoward[i] * playerInLineup[i] for i in numOfPlayers) >= 1
+problem += pulp.lpSum(powerfoward[i] * playerInLineup[i] for i in numOfPlayers) <= 3
 
 # constraint: 1 <= number of C <= Max 2
+centers = tuple(specificDate['Pos'] == 'C')
+problem += pulp.lpSum(playerInLineup[i] * centers[i] for i in numOfPlayers) <= 2
+problem += pulp.lpSum(playerInLineup[i] * centers[i] for i in numOfPlayers) >= 1
 
 # constraint: at least two different teams must be chosen
-
 
 # constraint: at least two different games must be chosen
 
 
-count = 0
+cum = 0
 
 # if solved, print players. otherwise, print error message
 if problem.solve() == 1:
-    for pos in range(len(problem.variables())):
-        print '%30s, Present = %1.0f' % (playerNames[pos], problem.variables()[pos].varValue)
+    for pos in range(len(numOfPlayers)):
 
-        if problem.variables()[pos].varValue == 1:
-            count += 1
+        if playerInLineup[pos].value() == 1:
+            print '%30s, Present = %1.0f, Position = %s, Price = %5.f, Points = %3.2f' \
+                  % (playerNames[pos], playerInLineup[pos].value(), playerPositions[pos], playerCosts[pos], playerPoints[pos])
+            cum += 1
 
-    print count
+    print cum
 
 else:
     print 'Error finding solution'
+
