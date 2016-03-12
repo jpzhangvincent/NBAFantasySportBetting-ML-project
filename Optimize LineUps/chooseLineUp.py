@@ -12,7 +12,8 @@ for file in glob.glob('Data/SalaryHistory/*.csv'):
     list.append(pandas.read_csv(file, sep=';'))
 pastsalaries = pandas.concat(list)
 pastsalaries = pastsalaries.dropna()
-pastsalaries['DK Salary'] = pastsalaries['DK Salary'].astype(str).map(lambda ele: int(ele.replace('$', '').replace(',','')))
+pastsalaries['DK Salary'] = pastsalaries['DK Salary'].astype(str).map(
+    lambda ele: int(ele.replace('$', '').replace(',', '')))
 pastsalaries.head()
 
 # create dataframe of past winning lineups
@@ -79,24 +80,25 @@ centers = tuple(specificDate['Pos'] == 'C')
 problem += pulp.lpSum(playerInLineup[i] * centers[i] for i in numOfPlayers) <= 2
 problem += pulp.lpSum(playerInLineup[i] * centers[i] for i in numOfPlayers) >= 1
 
+# create variables for teams
+teamsInLineup = pulp.LpVariable.dicts("Teams", [i for i in specificDate['Team'].unique()], 0, 1, cat="Binary")
+teams = tuple(specificDate['Team'])
+
 # constraint: at least two different teams must be chosen
+# TODO: test this constraint more thoroughly
+# problem += pulp.lpSum(playerInLineup[i] * (teams[i] == key)
+#                       for i in numOfPlayers for key in teamsInLineup.keys()) >= 3
 
 # constraint: at least two different games must be chosen
 
 
-cum = 0
 
 # if solved, print players. otherwise, print error message
 if problem.solve() == 1:
     for pos in range(len(numOfPlayers)):
-
         if playerInLineup[pos].value() == 1:
-            print '%30s, Present = %1.0f, Position = %s, Price = %5.f, Points = %3.2f' \
-                  % (playerNames[pos], playerInLineup[pos].value(), playerPositions[pos], playerCosts[pos], playerPoints[pos])
-            cum += 1
-
-    print cum
-
+            print '%25s, Present = %1.0f, Position = %2s, Price = %5.f, Points = %3.2f, Team = %3s' \
+                  % (playerNames[pos], playerInLineup[pos].value(), playerPositions[pos], playerCosts[pos],
+                     playerPoints[pos], teams[pos])
 else:
     print 'Error finding solution'
-
