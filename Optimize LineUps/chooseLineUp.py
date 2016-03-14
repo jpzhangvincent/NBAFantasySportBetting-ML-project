@@ -24,9 +24,8 @@ pastwinners['Salary'] = pastwinners['Salary'].map(lambda ele: int(ele.replace('$
 
 
 # create cumulative, total to track accuracy
-cum = 0
-total = 0
 
+list = []
 
 for date in pastsalaries['Date'].unique():
 
@@ -42,6 +41,7 @@ for date in pastsalaries['Date'].unique():
     # initialize variables
     playerPositions = specificDate['Pos'].tolist()
     playerNames = specificDate['Name'].tolist()
+    teams = specificDate['Team'].tolist()
     playerTeams = tuple(specificDate['Team'].unique())
     playerCosts = tuple(specificDate['DK Salary'])
     playerPoints = tuple(specificDate['DK Pts'])
@@ -49,7 +49,7 @@ for date in pastsalaries['Date'].unique():
     numOfPlayers = range(len(playerCosts))
 
     # create problem
-    problem = pulp.LpProblem("Optimal Line-Up", pulp.LpMaximize)
+    problem = pulp.LpProblem("Optimal Lineup", pulp.LpMaximize)
 
     # create variable to represent each player
     playerInLineup = pulp.LpVariable.dicts("Players", [i for i in numOfPlayers], 0, 1, cat="Binary")
@@ -93,16 +93,26 @@ for date in pastsalaries['Date'].unique():
     problem += pulp.lpSum(playerInLineup[i] * centers[i] for i in numOfPlayers) >= 1
 
     # calculated predicted lineup
+    predictedcost = 0
+    predictedpoints = 0
+
     predicted = set()
     if problem.solve() == 1:
         for pos in range(len(numOfPlayers)):
             if playerInLineup[pos].value() == 1:
                 name = playerNames[pos]
                 predicted.add(name)
+                predictedcost += playerCosts[pos]
+                predictedpoints += playerPoints[pos]
+                # print '%25s, Position = %2s, Price = %5.f, Points = %3.2f, Team = %3s' \
+                #       % (playerNames[pos], playerPositions[pos], playerCosts[pos],
+                #          playerPoints[pos], teams[pos])
+        # print '\nTotal Team Cost: %5d\nTotal Team Points: %3.2f' % (predictedcost, predictedpoints)
     else:
         print 'Error finding solution'
 
-    # convert date to alternative format to look up psat winners
+    # convert date to alternative format to look up past winners
+    dateOriginal = date
     date = str(int(date))
     day = date[6:8][1] if int(date[6:8]) < 10 else date[6:8]
     month = date[4:6][1] if int(date[4:6]) < 10 else date[4:6]
@@ -116,47 +126,28 @@ for date in pastsalaries['Date'].unique():
         name = name[1] + ', ' + name[0]
         ideal.add(name)
 
+    idealcost = sum(pastwinners[pastwinners['Date'] == date]['Salary'])
+    idealpoints = sum(pastwinners[pastwinners['Date'] == date]['FP'])
 
-    # if all positions were predicted correctly, add 8 to cumulative
-    # if no ideal data, remove from total
-    # otherwise, print differences
-    if len(predicted.intersection(ideal)) == 8:
-        cum += 8
-    elif len(ideal) == 0:
-        total -= 8
-    else:
-        print predicted.difference(ideal)
-        print ideal.difference(predicted)
-        cum += len(predicted.intersection(ideal))
+    # print '\nTotal Team Cost: %5d\nTotal Team Points: %3.2f' % (idealcost, idealpoints)
 
-    total += 8
+    comparison = pandas.DataFrame({'Date': dateOriginal,
+            'NumberFire Cost' : idealcost,
+            'NumberFire Points': idealpoints,
+            'Predicted Cost' : predictedcost,
+            'Predicted Points' : predictedpoints,
+            }, index=[0])
 
-print 1.0 * cum / total
+    if idealpoints != 0:
+        list.append(comparison)
 
+idealvspredicted = pandas.concat(list)
 
-
-
-
+# write to file
+idealvspredicted.to_csv('../Data/idealversuspredicted.csv')
 
 
-
-
-
-
-
-# points = 0
-# cost = 0
-
-# if solved, print players. otherwise, print error message
-# if problem.solve() == 1:
-#     for pos in range(len(numOfPlayers)):
-#         if playerInLineup[pos].value() == 1:
-#             print '%25s, Present = %1.0f, Position = %2s, Price = %5.f, Points = %3.2f, Team = %3s' \
-#                   % (playerNames[pos], playerInLineup[pos].value(), playerPositions[pos], playerCosts[pos],
-#                      playerPoints[pos], teams[pos])
-#             points += playerPoints[pos]
-#             cost += playerCosts[pos]
-#     print points
-#     print cost
-# else:
-#     print 'Error finding solution'
+# import file to check
+# idealvspredicted = pandas.read_csv('../Data/idealversuspredicted.csv', index_col=0)
+# idealvspredicted = idealvspredicted.sort_values('Date').reset_index(drop=True)
+# idealvspredicted.head()
