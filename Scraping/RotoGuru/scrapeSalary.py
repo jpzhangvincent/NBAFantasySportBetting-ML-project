@@ -1,10 +1,6 @@
-import re
 from bs4 import BeautifulSoup
 import urllib2
-import pandas
-import csv
 from datetime import date, datetime, timedelta
-
 
 
 def perdelta(start, end, delta):
@@ -12,8 +8,6 @@ def perdelta(start, end, delta):
     while curr < end:
         yield curr
         curr += delta
-
-
 
 
 for result in perdelta(date(2015, 11, 16), datetime.now().date(), timedelta(days=1)):
