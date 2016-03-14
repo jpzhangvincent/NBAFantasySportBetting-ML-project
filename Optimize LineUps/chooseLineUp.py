@@ -24,13 +24,8 @@ pastwinners['Salary'] = pastwinners['Salary'].map(lambda ele: int(ele.replace('$
 
 
 # create cumulative, total to track accuracy
-tie = 0
-win = 0
-lose = 0
-total = 0
 
-idealvspredicted = pandas.DataFrame()
-
+list = []
 
 for date in pastsalaries['Date'].unique():
 
@@ -117,6 +112,7 @@ for date in pastsalaries['Date'].unique():
         print 'Error finding solution'
 
     # convert date to alternative format to look up past winners
+    dateOriginal = date
     date = str(int(date))
     day = date[6:8][1] if int(date[6:8]) < 10 else date[6:8]
     month = date[4:6][1] if int(date[4:6]) < 10 else date[4:6]
@@ -135,20 +131,23 @@ for date in pastsalaries['Date'].unique():
 
     # print '\nTotal Team Cost: %5d\nTotal Team Points: %3.2f' % (idealcost, idealpoints)
 
+    comparison = pandas.DataFrame({'Date': dateOriginal,
+            'NumberFire Cost' : idealcost,
+            'NumberFire Points': idealpoints,
+            'Predicted Cost' : predictedcost,
+            'Predicted Points' : predictedpoints,
+            }, index=[0])
 
-    if idealpoints > 0 and idealpoints == predictedpoints:
-        tie += 1
-    elif idealpoints > 0 and idealpoints < predictedpoints:
-        win += 1
-    elif idealpoints > 0:
-        lose += 1
-    else:
-        total -= 1
-    total += 1
+    if idealpoints != 0:
+        list.append(comparison)
 
-print 'Win: ', float(win) / total
-print 'Tie: ', float(tie) / total
-print 'Lose: ', float(lose) / total
-print 'Total: ', float(win+lose+tie) / total
+idealvspredicted = pandas.concat(list)
+
+# write to file
+idealvspredicted.to_csv('../Data/idealversuspredicted.csv')
 
 
+# import file to check
+# idealvspredicted = pandas.read_csv('../Data/idealversuspredicted.csv', index_col=0)
+# idealvspredicted = idealvspredicted.sort_values('Date').reset_index(drop=True)
+# idealvspredicted.head()
