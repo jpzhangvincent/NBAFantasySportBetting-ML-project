@@ -1,0 +1,321 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20160302;4224;SG;Harden, James;1;72.5;$10,400;hou;H;nor;100;95;39.72;39pt 12rb 7as 4st 1bl 8to 1trey 11-24fg 16-18ft
+20160302;3891;PG;Lowry, Kyle;1;51.5;$8,400;tor;H;uta;104;94;40.22;32pt 4rb 5as 3st 1bl 5to 3trey 13-20fg 3-3ft
+20160302;4079;PG;Westbrook, Russell;1;51.5;$11,200;okc;A;lac;98;103;36.85;24pt 6rb 12as 1st 5to 2trey 8-21fg 6-6ft
+20160302;3786;PG;Paul, Chris;1;50.5;$9,800;lac;H;okc;103;98;39.82;21pt 4rb 13as 1st 1bl 2to 1trey 8-17fg 4-4ft
+20160302;4440;PG;Walker, Kemba;1;46.25;$8,100;cha;A;phi;119;99;37.55;30pt 7rb 2as 2st 1to 2trey 10-21fg 8-12ft
+20160302;4370;PG;Cole, Norris;1;44;$5,000;nor;A;hou;95;100;35.98;21pt 4rb 9as 1st 1bl 1to 2trey 9-16fg 1-1ft
+20160302;3979;PG;Conley, Mike;1;43;$7,200;mem;H;sac;104;98;33.57;24pt 2rb 5as 3st 1bl 1to 3trey 9-12fg 3-4ft
+20160302;4321;PG;Wall, John;1;40;$9,700;was;A;min;104;98;37.82;14pt 4rb 12as 2st 5to 6-18fg 2-2ft
+20160302;4494;SG;Beal, Bradley;;39.75;$5,900;was;A;min;104;98;28.75;26pt 3rb 2as 3st 1to 3trey 10-15fg 3-5ft
+20160302;4078;PG;Augustin, D.J.;;39.5;$3,800;den;H;lal;117;107;23.20;26pt 2rb 5as 1st 3trey 7-11fg 9-9ft
+20160302;4773;PG;Mudiay, Emmanuel;1;39.5;$5,300;den;H;lal;117;107;33.62;22pt 4rb 7as 1bl 2to 2trey 10-20fg 0-2ft
+20160302;4420;PG;Thomas, Isaiah;1;39.5;$7,400;bos;H;por;116;93;29.78;30pt 4rb 2as 3trey 11-20fg 5-5ft
+20160302;4799;PG;Russell, D'Angelo;1;39.25;$5,800;lal;A;den;107;117;35.98;24pt 1rb 6as 1st 1bl 1to 3trey 9-21fg 3-5ft
+20160302;3872;PG;Rondo, Rajon;1;39;$8,300;sac;A;mem;98;104;41.37;6pt 8rb 17as 5to 3-10fg 0-2ft
+20160302;4677;PG;Smart, Marcus;;38.75;$4,600;bos;H;por;116;93;30.97;15pt 11rb 3as 2st 1to 1trey 5-12fg 4-5ft
+20160302;4414;PG;Rubio, Ricky;1;38;$6,400;min;H;was;98;104;37.90;22pt 6rb 3as 3st 6to 2trey 6-14fg 8-9ft
+20160302;4490;SG;Middleton, Khris;1;37.5;$7,500;mil;H;ind;99;104;38.43;23pt 4rb 4as 2st 3to 2trey 7-19fg 7-9ft
+20160302;4211;SG;DeRozan, DeMar;1;37.25;$7,400;tor;H;uta;104;94;34.92;31pt 5rb 11-15fg 9-11ft
+20160302;4776;SG;Hezonja, Mario;1;35.75;$3,700;orl;H;chi;102;89;37.15;21pt 5rb 2as 1st 1bl 3trey 9-17fg
+20160302;4699;PG;Payton, Elfrid;1;35;$5,100;orl;H;chi;102;89;33.48;9pt 4rb 12as 1st 1bl 3to 1trey 4-9fg
+20160302;4315;PG;Smith, Ishmael;1;33.75;$6,500;phi;H;cha;99;119;32.33;12pt 5rb 8as 1st 1bl 2to 1trey 5-13fg 1-3ft
+20160302;4234;PG;Beverley, Patrick;1;33.25;$4,500;hou;H;nor;100;95;34.57;15pt 9rb 2as 1st 1bl 2to 2trey 6-13fg 1-2ft
+20160302;4523;PG;Lillard, Damian;1;32;$9,500;por;A;bos;93;116;33.97;20pt 4rb 2as 2bl 3to 3trey 8-17fg 1-2ft
+20160302;4086;SG;Batum, Nicolas;1;31.5;$6,900;cha;A;phi;119;99;36.60;12pt 4rb 7as 2st 2to 2trey 5-14fg
+20160302;4073;PG;Rose, Derrick;1;31;$7,000;chi;A;orl;89;102;24.85;16pt 4rb 6as 1st 2to 7-14fg 2-2ft
+20160302;4706;SG;LaVine, Zach;1;30.25;$5,500;min;H;was;98;104;38.92;21pt 3rb 2as 1st 1to 2trey 7-18fg 5-5ft
+20160302;4627;SG;Oladipo, Victor;1;29.75;$7,300;orl;H;chi;102;89;35.58;17pt 7rb 1as 1st 1bl 3to 6-12fg 5-6ft
+20160302;3745;SG;Ellis, Monta;1;28;$6,100;ind;A;mil;104;99;36.43;10pt 4rb 6as 2st 1to 1trey 4-10fg 1-2ft
+20160302;4212;PG;Holiday, Jrue;;27.25;$7,800;nor;A;hou;95;100;29.73;13pt 3rb 7as 1st 5to 1trey 5-13fg 2-2ft
+20160302;4088;PG;Chalmers, Mario;;27;$4,300;mem;H;sac;104;98;26.78;15pt 4as 3st 1to 1trey 4-9fg 6-6ft
+20160302;4269;SG;Bradley, Avery;1;26.25;$5,100;bos;H;por;116;93;30.02;17pt 1rb 1as 3st 1trey 7-14fg 2-2ft
+20160302;4522;SG;Barton, Will;;25.25;$6,000;den;H;lal;117;107;24.05;11pt 7rb 3as 1bl 4to 2trey 2-8fg 5-9ft
+20160302;4657;SG;McCollum, C.J.;1;25;$7,300;por;A;bos;93;116;34.65;17pt 2as 2bl 1to 3trey 5-13fg 4-4ft
+20160302;3853;SG;Anderson, Alan;;24.5;$3,000;was;A;min;104;98;20.58;18pt 2rb 1st 4trey 6-9fg 2-2ft
+20160302;4803;PG;Huertas, Marcelo;;24.25;$3,000;lal;A;den;107;117;30.70;9pt 1rb 8as 1st 1to 1trey 3-4fg 2-2ft
+20160302;3861;SG;Redick, J.J.;1;24.25;$5,300;lac;H;okc;103;98;31.00;16pt 1rb 3as 1st 1to 2trey 6-13fg 2-2ft
+20160302;4678;SG;Harris, Gary;1;24.25;$5,000;den;H;lal;117;107;40.20;16pt 3rb 2as 1st 3to 2trey 6-12fg 2-2ft
+20160302;4077;SG;Gordon, Eric;1;23.75;$5,100;nor;A;hou;95;100;32.02;14pt 3rb 3as 1st 5to 4trey 5-11fg
+20160302;3974;SG;Belinelli, Marco;;23.75;$3,800;sac;A;mem;98;104;25.35;16pt 1rb 4as 1to 2trey 7-15fg
+20160302;4558;SG;Holiday, Justin;;23.5;$3,000;chi;A;orl;89;102;27.95;6pt 4rb 4as 3st 1trey 2-10fg 1-2ft
+20160302;4245;PG;Mills, Patty;;22.5;$4,000;sas;H;det;97;81;18.15;7pt 2rb 7as 1st 1trey 3-8fg
+20160302;4076;PG;Bayless, Jerryd;;22.25;$4,700;mil;H;ind;99;104;31.77;11pt 3rb 5as 3-9fg 5-5ft
+20160302;4704;SG;Wiggins, Andrew;1;22;$6,300;min;H;was;98;104;36.23;17pt 2rb 1as 1st 2to 6-11fg 5-6ft
+20160302;4569;PG;Canaan, Isaiah;1;22;$4,000;phi;H;cha;99;119;31.93;17pt 2st 2to 4trey 5-15fg 3-3ft
+20160302;3858;PG;Foye, Randy;;22;$3,100;okc;A;lac;98;103;25.67;8pt 4rb 2as 1st 2bl 2to 2trey 3-4fg
+20160302;4297;PG;Lin, Jeremy;;20.5;$4,400;cha;A;phi;119;99;19.78;14pt 4rb 2as 3to 4-6fg 6-6ft
+20160302;4549;SG;Ross, Terrence;;20.25;$4,000;tor;H;uta;104;94;27.12;11pt 3rb 2st 3trey 4-13fg
+20160302;4807;PG;Neto, Raul;;20;$3,100;uta;A;tor;94;104;23.15;10pt 2rb 2as 2st 1to 2trey 4-6fg
+20160302;4318;SG;Turner, Evan;;20;$5,300;bos;H;por;116;93;25.67;2pt 4rb 5as 2st 1bl 1to 1-8fg
+20160302;4026;SG;Stuckey, Rodney;;19.75;$3,800;ind;A;mil;104;99;18.75;15pt 1rb 2as 1to 2trey 5-7fg 3-4ft
+20160302;4668;PG;Clarkson, Jordan;1;19.75;$6,000;lal;A;den;107;117;22.50;13pt 3rb 1st 1to 3trey 4-13fg 2-2ft
+20160302;3116;SG;Crawford, Jamal;;19.5;$5,700;lac;H;okc;103;98;31.82;12pt 2rb 2as 1st 5-14fg 2-3ft
+20160302;4369;PG;Jackson, Reggie;1;19.25;$6,600;det;A;sas;81;97;30.70;11pt 3rb 3as 1st 4to 4-13fg 3-3ft
+20160302;4102;PG;Hill, George;1;18.75;$5,200;ind;A;mil;104;99;33.73;10pt 3rb 3as 1to 2trey 4-8fg
+20160302;4110;SG;Lee, Courtney;1;18.75;$4,200;cha;A;phi;119;99;28.50;9pt 3rb 3as 1st 2to 1trey 2-5fg 4-4ft
+20160302;3313;PG;Parker, Tony;1;18.25;$5,200;sas;H;det;97;81;27.30;10pt 3rb 4as 3to 4-7fg 2-2ft
+20160302;4228;PG;Collison, Darren;;18;$5,700;sac;A;mem;98;104;28.22;17pt 1as 5to 4trey 5-10fg 3-4ft
+20160302;3976;PG;Brooks, Aaron;;17.5;$3,900;chi;A;orl;89;102;16.63;7pt 4rb 2as 1st 1trey 3-10fg
+20160302;4364;SG;Moore, E'Twaun;1;16.75;$5,400;chi;A;orl;89;102;28.12;9pt 3rb 3as 1to 4-9fg 1-1ft
+20160302;4561;SG;Crabbe, Allen;;16.75;$3,600;por;A;bos;93;116;25.72;10pt 3rb 1bl 2trey 4-8fg
+20160302;4534;SG;Thompson, Hollis;;15;$3,700;phi;H;cha;99;119;21.40;10pt 2rb 1as 2trey 3-8fg 2-5ft
+20160302;4072;SG;Mayo, O.J.;1;15;$4,000;mil;H;ind;99;104;33.92;3pt 6rb 2as 1st 2to 1trey 1-4fg
+20160302;4831;PG;McConnell, T.J.;;14.75;$3,500;phi;H;cha;99;119;15.70;4pt 3rb 5as 1to 1-2fg 2-2ft
+20160302;4199;SG;Temple, Garrett;1;13.75;$3,400;was;A;min;104;98;27.82;2pt 5rb 3as 1st 2to 1-7fg
+20160302;4589;SG;McLemore, Ben;1;13.5;$3,200;sac;A;mem;98;104;18.60;8pt 2st 1bl 2to 1trey 3-7fg 1-2ft
+20160302;4193;SG;Green, Danny;1;13.25;$4,800;sas;H;det;97;81;32.67;0pt 1rb 3as 2st 2bl 1to 0-3fg
+20160302;4483;SG;Rivers, Austin;;12.75;$3,000;lac;H;okc;103;98;18.50;6pt 3rb 1as 1st 1to 2-8fg 2-4ft
+20160302;4405;PG;Joseph, Cory;;12.5;$4,400;tor;H;uta;104;94;25.58;7pt 3as 1st 2to 3-6fg 1-1ft
+20160302;4616;SG;Caldwell-Pope, Kentavious;1;12.5;$4,900;det;A;sas;81;97;36.15;4pt 2rb 3as 1st 1to 1-10fg 2-3ft
+20160302;4036;SG;Young, Nick;;12.25;$3,200;lal;A;den;107;117;12.72;8pt 3rb 1trey 2-5fg 3-3ft
+20160302;4615;PG;Burke, Trey;;12.25;$3,400;uta;A;tor;94;104;13.98;11pt 1rb 1to 1trey 5-10fg
+20160302;4744;SG;Hood, Rodney;1;11.5;$5,800;uta;A;tor;94;104;12.85;3pt 4as 1st 1trey 1-2fg
+20160302;2448;SG;Carter, Vince;;10.75;$3,800;mem;H;sac;104;98;18.53;4pt 3rb 1as 1st 1to 2-12fg
+20160302;4485;PG;Roberts, Brian;;10.25;$3,000;por;A;bos;93;116; 7.75;4pt 1rb 2as 1st 2-2fg
+20160302;4514;SG;Lamb, Jeremy;;10;$3,400;cha;A;phi;119;99;16.32;6pt 2rb 1st 1to 3-6fg
+20160302;3518;PG;Blake, Steve;;9.75;$3,000;det;A;sas;81;97;17.30;3pt 1rb 4as 2to 1trey 1-4fg
+20160302;4703;SG;Stauskas, Nik;;9.75;$3,600;phi;H;cha;99;119;17.02;6pt 1rb 1st 1trey 2-6fg 1-1ft
+20160302;1881;SG;Bryant, Kobe;1;9.5;$5,700;lal;A;den;107;117;10.83;5pt 2rb 1as 1trey 1-2fg 2-3ft
+20160302;4701;SG;Ingles, Joe;;9.5;$3,000;uta;A;tor;94;104;13.65;3pt 2rb 1as 1st 1trey 1-3fg
+20160302;4182;PG;Jennings, Brandon;;9;$4,000;orl;H;chi;102;89;11.77;2pt 2rb 3as 1-5fg
+20160302;4377;PG;Mack, Shelvin;1;9;$4,600;uta;A;tor;94;104;23.85;2pt 2rb 4as 3to 0-6fg 2-2ft
+20160302;4020;PG;Sessions, Ramon;;9;$3,900;was;A;min;104;98;10.83;7pt 2rb 2to 1trey 3-5fg
+20160302;4559;SG;Roberson, Andre;1;8.75;$3,100;okc;A;lac;98;103;22.37;0pt 7rb 0-4fg
+20160302;4515;SG;Waiters, Dion;;8.5;$4,100;okc;A;lac;98;103;26.93;6pt 2rb 2to 2trey 2-9fg
+20160302;4823;PG;Rozier, Terry;;8.25;$3,000;bos;H;por;116;93; 6.15;2pt 1rb 1as 2st 1to 1-7fg
+20160302;4190;SG;Henderson, Gerald;;7.5;$4,000;por;A;bos;93;116;15.13;5pt 2rb 1-6fg 3-4ft
+20160302;4839;SG;Hilliard, Darrun;;6.25;$3,100;det;A;sas;81;97;11.63;3pt 1rb 1as 1trey 1-4fg
+20160302;3041;PG;Miller, Andre;;5.5;$3,000;sas;H;det;97;81; 7.65;0pt 2rb 2as
+20160302;4882;PG;Payne, Cameron;;4.75;$3,300;okc;A;lac;98;103; 3.37;2pt 1rb 1as 1-2fg
+20160302;4779;PG;Harrison, Aaron;;4.75;$3,000;cha;A;phi;119;99; 1.75;3pt 1rb 1trey 1-1fg
+20160302;3054;PG;Terry, Jason;;4.75;$3,100;hou;H;nor;100;95;18.12;0pt 1rb 1as 1st 0-5fg
+20160302;4546;PG;Prigioni, Pablo;;4.25;$3,000;lac;H;okc;103;98; 8.18;3pt 1rb 1to 1trey 1-1fg
+20160302;4658;PG;Daniels, Troy;;3.5;$3,000;cha;A;phi;119;99; 1.75;3pt 1trey 1-2fg
+20160302;4056;PG;Watson, C.J.;;3.25;$3,100;orl;H;chi;102;89;17.25;0pt 1rb 1bl 0-6fg
+20160302;4876;PG;Jones, Tyus;;3;$3,000;min;H;was;98;104;10.10;3pt 1to 1trey 1-4fg
+20160302;3463;SG;Butler, Rasual;;2;$3,000;sas;H;det;97;81; 4.77;0pt 1st 0-1fg
+20160302;4178;PG;Douglas, Toney;;2;$3,400;nor;A;hou;95;100; 7.83;0pt 2rb 1to 0-2fg
+20160302;4846;SG;Vaughn, Rashad;;1.25;$3,000;mil;H;ind;99;104; 9.57;0pt 1rb 0-1fg
+20160302;4262;SG;Anderson, James;;1.25;$3,000;sac;A;mem;98;104; 5.00;0pt 1rb
+20160302;4694;PG;Napier, Shabazz;;0.75;$3,000;orl;H;chi;102;89; 2.75;0pt 1rb 1to 0-1fg
+20160302;4623;PG;Gutierrez, Jorge;;0;$3,000;cha;A;phi;119;99; 1.75;0pt
+20160302;4825;SG;Hunter, R.J.;;0;$3,000;bos;H;por;116;93; 3.62;0pt 0-3fg
+20160302;4564;PG;Curry, Seth;;0;$3,300;sac;A;mem;98;104;DNP;0pt
+20160302;4729;PG;Ennis, Tyler;;0;$3,000;mil;H;ind;99;104;DNP;0pt
+20160302;4784;SG;Dejean-Jones, Bryce;;0;$3,000;nor;A;hou;95;100;DNP;0pt
+20160302;3141;SG;Miller, Mike;;0;$3,000;den;H;lal;117;107;DNP;0pt
+20160302;4685;SG;Wilcox, C.J.;;0;$3,000;lac;H;okc;103;98;DNP;0pt
+20160302;4363;SG;Butler, Jimmy;;0;$8,500;chi;A;orl;89;102;DNP;0pt
+20160302;3656;PG;Nelson, Jameer;;0;$3,700;den;H;lal;117;107;DNP;0pt
+20160302;4792;SG;Powell, Norman;;0;$3,000;tor;H;uta;104;94;DNP;0pt
+20160302;4791;PG;Wright, Delon;;0;$3,300;tor;H;uta;104;94;DNP;0pt
+20160302;4575;PG;Carter-Williams, Michael;;0;$5,500;mil;H;ind;99;104;DNP;0pt
+20160302;4115;SG;Morrow, Anthony;;0;$3,000;okc;A;lac;98;103;DNP;0pt
+20160302;4500;PG;Marshall, Kendall;;0;$3,000;phi;H;cha;99;119;DNP;
+20160302;4782;SG;Young, Joseph;;0;$3,000;ind;A;mil;104;99;DNP;0pt
+20160302;3816;SG;Williams, Louis;;0;$4,800;lal;A;den;107;117;NA;0pt
+20160302;3021;SG;Ginobili, Manu;;0;$3,900;sas;H;det;97;81;NA;
+20160302;4468;SG;Fournier, Evan;;0;$5,900;orl;H;chi;102;89;NA;0pt
+20160302;4670;SG;Eddie, Jarell;;0;$3,000;was;A;min;104;98;NA;0pt
+20160302;4760;PG;Dinwiddie, Spencer;;0;$3,000;det;A;sas;81;97;NA;0pt
+20160302;4441;SG;Burks, Alec;;0;$4,200;uta;A;tor;94;104;NA;0pt
+20160302;4300;SG;Neal, Gary;;0;$3,200;was;A;min;104;98;NA;0pt
+20160302;4727;SG;Adams, Jordan;;0;$3,000;mem;H;sac;104;98;NA;0pt
+20160302;4679;SG;Young, James;;0;$3,000;bos;H;por;116;93;NA;0pt
+20160302;4707;PG;Exum, Dante;;0;$3,000;uta;A;tor;94;104;NA;0pt
+20160302;4183;SG;Meeks, Jodie;;0;$3,000;det;A;sas;81;97;NA;0pt
+20160302;4207;SG;Evans, Tyreke;;0;$6,800;nor;A;hou;95;100;NA;0pt
+20160302;4320;PG;Vasquez, Greivis;;0;$3,400;mil;H;ind;99;104;NA;0pt
+20160302;3986;SF;Durant, Kevin;1;61.25;$10,200;okc;A;lac;98;103;39.12;30pt 11rb 5as 5bl 6to 3trey 12-27fg 3-4ft
+20160302;4274;PF;Cousins, DeMarcus;1;55.5;$10,600;sac;A;mem;98;104;33.53;18pt 16rb 6as 3st 2bl 7to 1trey 7-18fg 3-6ft
+20160302;4404;SF;Leonard, Kawhi;1;46.5;$7,700;sas;H;det;97;81;35.87;27pt 6rb 5as 2st 1trey 13-22fg
+20160302;4285;SF;Hayward, Gordon;1;41.75;$6,900;uta;A;tor;94;104;37.43;26pt 3rb 6as 1bl 1to 3trey 9-22fg 5-6ft
+20160302;3860;PF;Aldridge, LaMarcus;1;40.5;$6,900;sas;H;det;97;81;35.02;23pt 10rb 3as 2to 10-16fg 3-3ft
+20160302;4570;SF;Covington, Robert;1;38.75;$5,500;phi;H;cha;99;119;31.97;17pt 9rb 3as 1st 2bl 4to 4trey 6-13fg 1-2ft
+20160302;4705;PF;Gordon, Aaron;1;38.25;$6,900;orl;H;chi;102;89;33.20;13pt 15rb 3as 1trey 2-6fg 8-10ft
+20160302;4621;SF;Antetokounmpo, Giannis;1;37;$7,900;mil;H;ind;99;104;41.45;22pt 6rb 3as 1st 1bl 2to 7-16fg 8-8ft
+20160302;4283;SF;George, Paul;1;34.25;$8,600;ind;A;mil;104;99;33.78;15pt 9rb 5as 1bl 7to 4trey 5-15fg 1-4ft
+20160302;4292;SF;Johnson, Wesley;;32.5;$4,100;lac;H;okc;103;98;30.95;11pt 4rb 2as 5st 1bl 3trey 4-16fg 0-1ft
+20160302;4482;PF;Davis, Anthony;1;32.5;$10,100;nor;A;hou;95;100;39.17;12pt 8rb 3as 2st 1bl 1to 1trey 5-13fg 1-2ft
+20160302;3817;PF;Williams, Marvin;1;31.75;$6,000;cha;A;phi;119;99;29.83;14pt 9rb 1st 2bl 1to 2trey 6-11fg
+20160302;3314;PF;Randolph, Zach;1;31;$7,000;mem;H;sac;104;98;34.87;19pt 8rb 2as 2to 6-13fg 7-7ft
+20160302;4104;PF;Ibaka, Serge;1;30.25;$5,900;okc;A;lac;98;103;32.52;11pt 11rb 2as 1st 2to 5-16fg 1-1ft
+20160302;4085;PF;Anderson, Ryan;;29.5;$6,100;nor;A;hou;95;100;25.32;14pt 10rb 1st 3to 2trey 5-19fg 2-2ft
+20160302;4412;SF;Harris, Tobias;1;29.5;$6,000;det;A;sas;81;97;38.13;16pt 6rb 4as 1to 1trey 7-16fg 1-2ft
+20160302;4179;PF;Hill, Jordan;;29.25;$4,000;ind;A;mil;104;99;23.47;19pt 7rb 1as 8-12fg 3-4ft
+20160302;4652;PF;Noel, Nerlens;1;29.25;$6,300;phi;H;cha;99;119;27.30;17pt 3rb 4as 2st 3to 6-11fg 5-6ft
+20160302;4680;PF;Randle, Julius;1;27.25;$6,200;lal;A;den;107;117;31.17;17pt 7rb 1as 5-11fg 7-8ft
+20160302;4280;PF;Favors, Derrick;1;27.25;$7,500;uta;A;tor;94;104;35.30;15pt 7rb 1as 1bl 7-13fg 1-1ft
+20160302;3621;SF;Ariza, Trevor;1;25.5;$6,100;hou;H;nor;100;95;38.33;6pt 6rb 3as 4st 1bl 5to 3-10fg
+20160302;4632;PF;Dieng, Gorgui;1;25;$6,800;min;H;was;98;104;30.15;6pt 8rb 5as 1st 1to 3-5fg
+20160302;4728;PF;Parker, Jabari;1;25;$6,700;mil;H;ind;99;104;36.87;18pt 4rb 2st 4to 8-15fg 2-2ft
+20160302;4781;PF;Turner, Myles;1;24.75;$5,800;ind;A;mil;104;99;31.07;12pt 5rb 1as 1st 2bl 3to 1trey 4-10fg 3-3ft
+20160302;4407;SF;Morris, Marcus;1;24;$5,100;det;A;sas;81;97;32.30;16pt 4rb 2as 2to 2trey 6-15fg 2-2ft
+20160302;4841;PF;Portis, Bobby;;23.5;$4,800;chi;A;orl;89;102;26.25;9pt 6rb 5as 1to 4-11fg 1-2ft
+20160302;4581;PF;Green, JaMychal;;23.5;$4,100;mem;H;sac;104;98;21.27;15pt 2rb 3st 1to 1trey 5-7fg 4-5ft
+20160302;4187;PF;Jerebko, Jonas;;23;$3,200;bos;H;por;116;93;19.28;10pt 6rb 1as 2bl 3-8fg 4-4ft
+20160302;4472;SF;Crowder, Jae;1;22;$6,300;bos;H;por;116;93;28.97;12pt 6rb 1as 2trey 4-12fg 2-2ft
+20160302;4226;SF;Cunningham, Dante;1;21.75;$3,500;nor;A;hou;95;100;28.93;16pt 3rb 1as 3to 4trey 5-9fg 2-4ft
+20160302;4594;SF;Muhammad, Shabazz;;21.25;$4,200;min;H;was;98;104;23.68;11pt 9rb 2to 3-6fg 5-6ft
+20160302;4209;SF;Casspi, Omri;1;21.25;$4,900;sac;A;mem;98;104;25.82;12pt 7rb 1as 3to 1trey 4-7fg 3-4ft
+20160302;3408;PF;Hilario, Nene;;20.25;$4,000;was;A;min;104;98;23.82;8pt 5rb 3as 1bl 1to 4-6fg 0-2ft
+20160302;3503;PF;Scola, Luis;1;19.5;$3,500;tor;H;uta;104;94;18.87;4pt 6rb 4as 1st 2-5fg
+20160302;3404;SF;Dunleavy, Mike;1;19.5;$4,300;chi;A;orl;89;102;21.47;8pt 6rb 1as 1st 1to 2trey 3-9fg
+20160302;3765;PF;Ilyasova, Ersan;;19.25;$4,400;orl;H;chi;102;89;12.05;8pt 7rb 1st 1trey 3-8fg 1-3ft
+20160302;4736;SF;Anderson, Kyle;;19.25;$3,900;sas;H;det;97;81;18.70;7pt 5rb 1st 2bl 2-6fg 3-3ft
+20160302;3733;PF;Bass, Brandon;;19.25;$3,800;lal;A;den;107;117;28.90;11pt 1rb 1as 2st 1bl 1to 4-7fg 3-5ft
+20160302;3768;PF;Johnson, Amir;1;19;$4,200;bos;H;por;116;93;13.93;6pt 6rb 1as 2bl 3-7fg
+20160302;3975;SF;Brewer, Corey;;19;$3,700;hou;H;nor;100;95;19.80;9pt 4rb 2as 1st 4-9fg 1-2ft
+20160302;4023;PF;Smith, Jason;;18.25;$3,100;orl;H;chi;102;89;12.73;8pt 7rb 1bl 1to 4-7fg
+20160302;4765;SF;Grant, Jerami;1;18;$4,700;phi;H;cha;99;119;30.22;7pt 6rb 1as 1bl 1to 1trey 3-6fg
+20160302;4496;PF;Acy, Quincy;1;17.75;$3,200;sac;A;mem;98;104;26.07;11pt 3rb 1as 1st 1to 5-6fg 1-2ft
+20160302;4766;PF;Capela, Clint;;17.75;$4,400;hou;H;nor;100;95;16.25;4pt 5rb 1as 1st 2bl 2-2fg 0-2ft
+20160302;4453;PF;Morris, Markieff;1;17.5;$5,500;was;A;min;104;98;23.95;7pt 6rb 2as 1to 1trey 2-6fg 2-2ft
+20160302;4669;SF;McDermott, Doug;;16.5;$4,300;chi;A;orl;89;102;32.75;11pt 4rb 1trey 5-15fg 0-2ft
+20160302;4316;SF;Stephenson, Lance;;15.25;$4,300;mem;H;sac;104;98;15.72;7pt 3rb 3as 1st 4to 3-7fg 1-1ft
+20160302;4080;PF;Arthur, Darrell;;15.25;$3,900;den;H;lal;117;107;24.08;5pt 3rb 1st 2bl 1trey 2-5fg
+20160302;4456;PF;Faried, Kenneth;1;15.25;$6,200;den;H;lal;117;107;17.95;10pt 3rb 1as 4-5fg 2-2ft
+20160302;4801;SF;Brown, Anthony;;15;$3,100;lal;A;den;107;117;31.27;6pt 4rb 1as 1st 1to 2trey 2-6fg
+20160302;4003;PF;Landry, Carl;;14.75;$3,000;phi;H;cha;99;119;13.67;9pt 3rb 1st 3-6fg 3-4ft
+20160302;4806;PF;Lyles, Trey;;14.75;$3,400;uta;A;tor;94;104;25.03;6pt 3rb 2bl 2trey 2-7fg
+20160302;4761;PF;Vonleh, Noah;1;14.25;$3,100;por;A;bos;93;116;19.80;6pt 5rb 1st 3-10fg 0-2ft
+20160302;3985;SF;Dudley, Jared;;14.25;$4,300;was;A;min;104;98;21.98;5pt 3rb 2as 1bl 1trey 2-4fg
+20160302;4566;SF;Hill, Solomon;;14;$3,000;ind;A;mil;104;99; 7.30;2pt 4rb 2as 2st 0-1fg 2-2ft
+20160302;4654;SF;Bullock, Reggie;;13.75;$3,200;det;A;sas;81;97;21.08;7pt 5rb 1trey 2-2fg 2-3ft
+20160302;4722;SF;Hairston, P.J.;1;13.75;$3,700;mem;H;sac;104;98;22.92;6pt 3rb 2as 1bl 2to 2-8fg 2-2ft
+20160302;4530;SF;Harkless, Maurice;;13.75;$4,300;por;A;bos;93;116;21.30;5pt 7rb 1to 1trey 2-6fg
+20160302;4459;PF;Motiejunas, Donatas;1;13.75;$3,100;hou;H;nor;100;95;22.07;7pt 3rb 2as 3-7fg 1-4ft
+20160302;4850;PF;Martin, Jarell;;13.5;$3,000;mem;H;sac;104;98;10.03;2pt 8rb 1bl 1to 1-1fg
+20160302;2428;SF;Pierce, Paul;1;13.5;$3,200;lac;H;okc;103;98;14.63;6pt 4rb 1as 2trey 2-4fg
+20160302;4261;SF;Aminu, Al-Farouq;1;13;$4,800;por;A;bos;93;116;20.27;2pt 4rb 3as 1st 1to 1-4fg
+20160302;4302;PF;Patterson, Patrick;;12.75;$3,800;tor;H;uta;104;94;29.13;4pt 7rb 1-9fg 2-2ft
+20160302;3670;PF;Smith, Josh;;12.5;$3,900;hou;H;nor;100;95;19.40;4pt 2rb 2as 1st 1bl 2to 2-5fg
+20160302;4196;SF;Budinger, Chase;;11.5;$3,100;ind;A;mil;104;99;14.22;3pt 2rb 3as 1st 1to 1-4fg 1-2ft
+20160302;4676;SF;Sampson, JaKarr;1;11.5;$3,100;den;H;lal;117;107;22.93;6pt 4rb 1trey 1-2fg 3-4ft
+20160302;4555;SF;Johnson, Chris;;11.25;$3,100;uta;A;tor;94;104;19.53;2pt 3rb 1as 2bl 1-4fg
+20160302;4571;SF;Snell, Tony;;11.25;$3,600;chi;A;orl;89;102;19.05;3pt 5rb 1as 1trey 1-3fg
+20160302;4276;PF;Davis, Ed;;10.5;$4,300;por;A;bos;93;116;12.13;3pt 6rb 0-2fg 3-4ft
+20160302;4811;SF;Connaughton, Pat;;10.5;$3,000;por;A;bos;93;116; 7.75;7pt 2rb 1as 2to 1trey 2-5fg 2-2ft
+20160302;4690;PF;Bairstow, Cameron;1;10.5;$3,000;chi;A;orl;89;102;10.13;8pt 2rb 4-5fg
+20160302;4835;PF;Holmes, Richaun;;10.5;$3,200;phi;H;cha;99;119;18.47;0pt 6rb 1as 1bl 1to 0-5fg
+20160302;4653;SF;Porter, Otto;1;10;$5,000;was;A;min;104;98;18.22;5pt 2rb 1as 1st 3to 1trey 2-5fg
+20160302;4460;SF;Singler, Kyle;;8.5;$3,000;okc;A;lac;98;103;11.83;3pt 4rb 1trey 1-2fg
+20160302;3573;PF;West, David;;8;$4,000;sas;H;det;97;81;15.77;4pt 2rb 1bl 1to 2-7fg
+20160302;3474;SF;Barnes, Matt;1;8;$5,800;mem;H;sac;104;98;27.17;2pt 2rb 3as 2to 1-6fg
+20160302;3527;PF;Diaw, Boris;;6.75;$3,500;sas;H;det;97;81;13.70;5pt 1rb 1trey 2-4fg
+20160302;4267;PF;Booker, Trevor;;5.5;$3,800;uta;A;tor;94;104; 7.40;4pt 2rb 2to 2-3fg
+20160302;3992;SF;Green, Jeff;1;5;$5,000;lac;H;okc;103;98;17.12;0pt 2rb 2as 1to 0-7fg
+20160302;3416;SF;Prince, Tayshaun;;3.25;$3,100;min;H;was;98;104; 5.32;0pt 1rb 1st 0-1fg
+20160302;4168;SF;Johnson, James;1;2.75;$3,300;tor;H;uta;104;94;16.62;2pt 1rb 1to 1-1fg
+20160302;4531;PF;Nicholson, Andrew;;2.5;$3,000;orl;H;chi;102;89; 2.75;0pt 2rb 0-1fg
+20160302;4824;PF;Mickey, Jordan;;2;$3,000;bos;H;por;116;93; 3.62;0pt 1bl
+20160302;4239;SF;Gee, Alonzo;;2;$3,100;nor;A;hou;95;100;12.25;0pt 2rb 1to
+20160302;4890;SF;Simmons, Jonathon;;2;$3,100;sas;H;det;97;81; 8.42;2pt 1-1fg
+20160302;4171;PF;Hansbrough, Tyler;;0;$3,000;cha;A;phi;119;99; 1.75;0pt
+20160302;4683;SF;Rudez, Damjan;;0;$3,000;min;H;was;98;104;DNP;0pt
+20160302;3401;SF;Butler, Caron;;0;$3,000;sac;A;mem;98;104;DNP;0pt
+20160302;3972;PF;Anthony, Joel;;0;$3,000;det;A;sas;81;97;DNP;0pt
+20160302;4049;PF;Tolliver, Anthony;;0;$3,600;det;A;sas;81;97;DNP;0pt
+20160302;3619;SF;Allen, Tony;;0;$4,100;mem;H;sac;104;98;DNP;0pt
+20160302;4360;PF;Harper, Justin;;0;$3,000;det;A;sas;81;97;DNP;0pt
+20160302;4875;PF;Bjelica, Nemanja;;0;$3,200;min;H;was;98;104;DNP;0pt
+20160302;4838;SF;Johnson, Stanley;;0;$4,500;det;A;sas;81;97;DNP;0pt
+20160302;4675;SF;McDaniels, K.J.;;0;$3,000;hou;H;nor;100;95;DNP;0pt
+20160302;4030;PF;Hickson, J.J.;;0;$3,000;was;A;min;104;98;DNP;0pt
+20160302;4264;SF;Babbitt, Luke;;0;$3,000;nor;A;hou;95;100;DNP;0pt
+20160302;4725;PF;McGary, Mitch;;0;$3,000;okc;A;lac;98;103;DNP;
+20160302;4857;PF;Harrell, Montrezl;;0;$3,100;hou;H;nor;100;95;DNP;0pt
+20160302;4511;PF;Jones, Terrence;;0;$3,400;hou;H;nor;100;95;DNP;0pt
+20160302;4828;SF;Oubre, Kelly;;0;$3,000;was;A;min;104;98;DNP;0pt
+20160302;4113;PF;Mbah a Moute, Luc;;0;$3,000;lac;H;okc;103;98;DNP;0pt
+20160302;4167;PF;Gibson, Taj;;0;$5,100;chi;A;orl;89;102;DNP;0pt
+20160302;3001;SF;Peace, Metta World;;0;$3,000;lal;A;den;107;117;DNP;0pt
+20160302;3406;PF;Gooden, Drew;;0;$3,000;was;A;min;104;98;DNP;0pt
+20160302;4702;SF;Robinson III, Glenn;;0;$3,000;ind;A;mil;104;99;DNP;0pt
+20160302;4764;SF;Inglis, Damien;;0;$3,000;mil;H;ind;99;104;DNP;0pt
+20160302;4721;PF;O'Bryant, Johnny;;0;$3,000;mil;H;ind;99;104;DNP;0pt
+20160302;3783;SF;Miles, C.J.;;0;$4,000;ind;A;mil;104;99;DNP;0pt
+20160302;4525;PF;Henson, John;;0;$3,900;mil;H;ind;99;104;DNP;0pt
+20160302;4895;SF;Stepheson, Alex;;0;$3,000;lac;H;okc;103;98;DNP;0pt
+20160302;3857;SF;Gay, Rudy;;0;$6,500;sac;A;mem;98;104;DNP;0pt
+20160302;4648;SF;Kelly, Ryan;;0;$3,000;lal;A;den;107;117;DNP;0pt
+20160302;4814;SF;Montero, Luis;;0;$3,000;por;A;bos;93;116;NA;
+20160302;3895;SF;Novak, Steve;;0;$3,000;mil;H;ind;99;104;NA;0pt
+20160302;4856;SF;Dekker, Sam;;0;$3,000;hou;H;nor;100;95;NA;0pt
+20160302;4082;SF;Gallinari, Danilo;;0;$6,500;den;H;lal;117;107;NA;0pt
+20160302;4305;SF;Pondexter, Quincy;;0;$3,000;nor;A;hou;95;100;NA;
+20160302;4172;PF;Griffin, Blake;;0;$8,500;lac;H;okc;103;98;NA;0pt
+20160302;1449;PF;Garnett, Kevin;;0;$3,000;min;H;was;98;104;NA;0pt
+20160302;4780;PF;Christmas, Rakeem;;0;$3,000;ind;A;mil;104;99;NA;0pt
+20160302;4796;SF;Dawson, Branden;;0;$3,000;lac;H;okc;103;98;NA;0pt
+20160302;4812;PF;Alexander, Cliff;;0;$3,000;por;A;bos;93;116;NA;0pt
+20160302;4034;PF;Wright, Brandan;;0;$4,000;mem;H;sac;104;98;NA;0pt
+20160302;4739;PF;Moreland, Eric;;0;$3,000;sac;A;mem;98;104;NA;0pt
+20160302;3978;SF;Chandler, Wilson;;0;$5,500;den;H;lal;117;107;NA;0pt
+20160302;4816;SF;Dukan, Duje;;0;$3,000;sac;A;mem;98;104;NA;0pt
+20160302;4708;SF;Caboclo, Bruno;;0;$3,000;tor;H;uta;104;94;NA;0pt
+20160302;4682;PF;Mirotic, Nikola;;0;$4,800;chi;A;orl;89;102;NA;0pt
+20160302;3520;PF;Bonner, Matt;;0;$3,000;sas;H;det;97;81;NA;
+20160302;4532;SF;Kidd-Gilchrist, Michael;;0;$5,400;cha;A;phi;119;99;NA;0pt
+20160302;4880;SF;Huestis, Josh;;0;$3,000;okc;A;lac;98;103;NA;
+20160302;4203;SF;Carroll, DeMarre;;0;$4,800;tor;H;uta;104;94;NA;0pt
+20160302;4798;PF;Nance, Larry;;0;$3,500;lal;A;den;107;117;NA;0pt
+20160302;4689;SF;Marble, Devyn;;-0.5;$3,000;orl;H;chi;102;89; 6.02;0pt 1to 0-1fg
+20160302;4673;PF;Payne, Adreian;;-1;$3,000;min;H;was;98;104; 8.28;0pt 2to 0-3fg
+20160302;4107;C;Jordan, DeAndre;1;51;$7,600;lac;H;okc;103;98;36.45;20pt 18rb 2as 1st 1bl 8-13fg 4-7ft
+20160302;4879;C;Towns, Karl-Anthony;1;45.75;$8,500;min;H;was;98;104;39.80;14pt 15rb 5as 1st 2bl 4to 5-12fg 4-4ft
+20160302;4373;C;Vucevic, Nikola;1;40.75;$8,000;orl;H;chi;102;89;32.52;24pt 7rb 4as 1st 1to 1trey 10-24fg 3-3ft
+20160302;4475;C;Sullinger, Jared;1;37.75;$6,000;bos;H;por;116;93;23.85;15pt 11rb 3as 2bl 2to 6-10fg 3-3ft
+20160302;3639;C;Howard, Dwight;1;35.25;$7,600;hou;H;nor;100;95;31.75;16pt 9rb 2st 3bl 4to 5-6fg 6-10ft
+20160302;4614;C;Zeller, Cody;1;33;$4,400;cha;A;phi;119;99;27.72;15pt 6rb 2as 4bl 1to 3-6fg 9-10ft
+20160302;3777;C;Mahinmi, Ian;1;32.5;$4,800;ind;A;mil;104;99;24.13;10pt 8rb 3as 1st 3bl 4-7fg 2-3ft
+20160302;4489;C;Drummond, Andre;1;30.5;$7,800;det;A;sas;81;97;26.68;9pt 14rb 1as 1st 1bl 3to 4-6fg 1-8ft
+20160302;4772;C;Jokic, Nikola;1;30;$5,600;den;H;lal;117;107;28.38;14pt 6rb 3as 2bl 1to 1trey 3-8fg 7-8ft
+20160302;4607;C;Plumlee, Mason;1;27.75;$4,800;por;A;bos;93;116;22.18;9pt 7rb 3as 1st 2bl 1to 4-5fg 1-2ft
+20160302;4620;C;Gobert, Rudy;1;26.5;$6,800;uta;A;tor;94;104;23.27;10pt 8rb 2as 2st 1to 4-6fg 2-7ft
+20160302;4298;C;Monroe, Greg;;26.25;$6,800;mil;H;ind;99;104;28.85;16pt 7rb 1st 1to 5-9fg 6-8ft
+20160302;2223;C;Duncan, Tim;1;25;$4,800;sas;H;det;97;81;20.23;12pt 8rb 1as 1st 1to 6-9fg 0-1ft
+20160302;4778;C;Kaminsky, Frank;;24;$3,600;cha;A;phi;119;99;17.72;7pt 8rb 3as 1st 1trey 3-5fg
+20160302;3308;C;Gasol, Pau;1;23.25;$8,700;chi;A;orl;89;102;27.75;12pt 5rb 1as 2bl 1to 5-13fg 2-2ft
+20160302;4497;C;Valanciunas, Jonas;1;22;$5,300;tor;H;uta;104;94;25.25;10pt 8rb 1bl 4-8fg 2-2ft
+20160302;3397;C;Andersen, Chris;1;22;$3,200;mem;H;sac;104;98;27.27;10pt 6rb 2st 1bl 3to 2-4fg 6-8ft
+20160302;4768;C;Lauvergne, Joffrey;;20.5;$3,400;den;H;lal;117;107;25.58;7pt 10rb 1as 1to 3-7fg 1-2ft
+20160302;4691;C;Black, Tarik;;20.25;$3,200;lal;A;den;107;117;18.20;6pt 7rb 1as 1st 1bl 2-4fg 2-2ft
+20160302;4556;C;Baynes, Aron;;20;$3,100;det;A;sas;81;97;26.02;12pt 6rb 1as 2to 5-8fg 2-2ft
+20160302;4574;C;Adams, Steven;1;19.25;$4,200;okc;A;lac;98;103;26.85;6pt 9rb 1bl 3-4fg
+20160302;4516;C;Zeller, Tyler;;18.75;$3,400;bos;H;por;116;93;24.15;7pt 7rb 2as 2-6fg 3-3ft
+20160302;3645;C;Jefferson, Al;;18.5;$4,800;cha;A;phi;119;99;18.98;6pt 6rb 1as 1st 1bl 1to 2-4fg 2-3ft
+20160302;4374;C;Allen, Lavoy;;18.5;$3,200;ind;A;mil;104;99;17.12;8pt 6rb 2as 3-6fg 2-2ft
+20160302;3756;C;Gortat, Marcin;1;18;$7,100;was;A;min;104;98;26.25;12pt 4rb 1bl 2to 6-9fg
+20160302;4442;C;Kanter, Enes;;18;$4,800;okc;A;lac;98;103;14.50;8pt 8rb 4-9fg
+20160302;4260;C;Aldrich, Cole;;17.5;$3,200;lac;H;okc;103;98;11.53;8pt 6rb 1st 4-5fg
+20160302;3556;C;Perkins, Kendrick;1;16.5;$3,000;nor;A;hou;95;100;22.20;0pt 8rb 1as 3st 2to 0-1fg
+20160302;4458;C;Biyombo, Bismack;;15.75;$3,900;tor;H;uta;104;94;17.80;1pt 7rb 3bl 0-2fg 1-2ft
+20160302;4542;C;Plumlee, Miles;1;15.5;$3,700;mil;H;ind;99;104;19.15;6pt 6rb 1st 3-3fg
+20160302;4817;C;Cauley-Stein, Willie;;15;$3,900;sac;A;mem;98;104;19.52;8pt 4rb 1st 4-4fg
+20160302;4521;C;Leonard, Meyers;;14.75;$3,600;por;A;bos;93;116;19.35;5pt 7rb 2as 5to 1trey 2-6fg
+20160302;4101;C;Hibbert, Roy;1;12;$3,400;lal;A;den;107;117;17.73;8pt 2rb 1bl 1to 3-6fg 2-2ft
+20160302;4084;C;Ajinca, Alexis;;9;$3,500;nor;A;hou;95;100; 6.57;5pt 1st 1bl 2-5fg 1-2ft
+20160302;4109;C;Koufos, Kosta;;8.5;$3,100;sac;A;mem;98;104;16.53;2pt 4rb 1as 1-5fg
+20160302;4845;C;Felicio, Cristiano;;7.25;$3,000;chi;A;orl;89;102; 5.05;0pt 5rb 1as 1to
+20160302;4759;C;Nogueira, Lucas;;6.5;$3,000;tor;H;uta;104;94; 4.50;2pt 4rb 1to 1-1fg
+20160302;4893;C;Marjanovic, Boban;;3.25;$3,100;sas;H;det;97;81; 1.77;0pt 1rb 1bl
+20160302;4572;C;Dedmon, Dewayne;;3.25;$3,000;orl;H;chi;102;89; 2.75;0pt 1rb 1bl
+20160302;4565;C;Withey, Jeff;;2;$3,000;uta;A;tor;94;104; 4.55;2pt 1-1fg
+20160302;3523;C;Collison, Nick;;0;$3,000;okc;A;lac;98;103;DNP;0pt
+20160302;4836;C;Okafor, Jahlil;;0;$6,100;phi;H;cha;99;119;DNP;0pt
+20160302;3008;C;Brand, Elton;;0;$3,000;phi;H;cha;99;119;DNP;0pt
+20160302;4681;C;Nurkic, Jusuf;;0;$3,700;den;H;lal;117;107;DNP;0pt
+20160302;4535;C;Sacre, Robert;;0;$3,000;lal;A;den;107;117;DNP;0pt
+20160302;4263;C;Asik, Omer;;0;$3,400;nor;A;hou;95;100;DNP;0pt
+20160302;3545;C;Kaman, Chris;;0;$3,000;por;A;bos;93;116;DNP;0pt
+20160302;4013;C;Noah, Joakim;;0;$5,400;chi;A;orl;89;102;NA;0pt
+20160302;3996;C;Hawes, Spencer;;0;$3,900;cha;A;phi;119;99;NA;
+20160302;4687;C;Whittington, Shayne;;0;$3,000;ind;A;mil;104;99;NA;0pt
+20160302;4116;C;Pekovic, Nikola;;0;$3,100;min;H;was;98;104;NA;0pt
+20160302;4583;C;Olynyk, Kelly;;0;$4,300;bos;H;por;116;93;NA;0pt
+20160302;4762;C;Embiid, Joel;;0;$3,000;phi;H;cha;99;119;NA;0pt
+20160302;3990;C;Gasol, Marc;;0;$7,000;mem;H;sac;104;98;NA;
+20160302;4408;NA;Smith, Greg;;6.75;N/A;min;H;was;98;104; 9.63;4pt 1rb 1as 1-1fg 2-4ft
+20160302;3898;NA;Hollins, Ryan;;-0.5;N/A;mem;H;sac;104;98; 1.88;0pt 1to
